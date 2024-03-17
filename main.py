@@ -3,12 +3,11 @@ import time
 
 
 def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+    print(f'Hi, {name}')
 
 
 if __name__ == '__main__':
     for x in range(5):
-        time.sleep(random.randint(1,10))
+        time.sleep(random.randint(1, 10))
         print_hi('PyCharm ' + str(x))
 exit(0)
